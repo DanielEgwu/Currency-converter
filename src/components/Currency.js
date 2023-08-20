@@ -38,13 +38,13 @@ function Currency() {
     }, [Base, Target])
 
     const Convert = () => {
-        if (Base == '' || Target == '' || Amount == '') {
+        if (Base === '' || Target === '' || Amount === '') {
             toast.error('please fill up all fields', {
                 toastId: customId
             })
             setShowResult(false)
         } else {
-            if (Base == Target) {
+            if (Base === Target) {
                 toast.error('Base and Target value cannot be the same', {
                     toastId: factor
                 })

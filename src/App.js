@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Currency from './components/Currency';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
